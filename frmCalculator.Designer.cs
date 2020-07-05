@@ -83,6 +83,7 @@
             this.txtOperation.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txtOperation.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
             this.txtOperation.Location = new System.Drawing.Point(384, 32);
+            this.txtOperation.Multiline = true;
             this.txtOperation.Name = "txtOperation";
             this.txtOperation.ReadOnly = true;
             this.txtOperation.Size = new System.Drawing.Size(89, 60);
@@ -95,7 +96,8 @@
             // 
             this.txtMemory.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txtMemory.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMemory.Location = new System.Drawing.Point(33, 32);
+            this.txtMemory.Location = new System.Drawing.Point(30, 32);
+            this.txtMemory.Multiline = true;
             this.txtMemory.Name = "txtMemory";
             this.txtMemory.ReadOnly = true;
             this.txtMemory.Size = new System.Drawing.Size(318, 60);
@@ -200,6 +202,7 @@
             this.txtDisplay.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txtDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 47F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDisplay.Location = new System.Drawing.Point(30, 110);
+            this.txtDisplay.Multiline = true;
             this.txtDisplay.Name = "txtDisplay";
             this.txtDisplay.ReadOnly = true;
             this.txtDisplay.Size = new System.Drawing.Size(443, 78);
